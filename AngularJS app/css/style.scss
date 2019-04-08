@@ -1,0 +1,35 @@
+header {
+    padding: 156px 0 100px;
+  }
+  
+section {
+    padding: 150px 0;
+}
+
+.card-header h4{
+    font-size:1.2em
+}
+
+.popularity{
+    display: flex;
+    justify-content: space-between;
+}
+
+.pop-circle{
+    position: relative;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    padding: 7px 0;
+    cursor: pointer;
+}
+
+.likes{
+    background: green;
+    color: white;
+}
+
+.dislikes{
+    background: red;
+    color: white;
+}
